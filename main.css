@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-box img {
+    width: 200px;
+    height: 250px;
+}
+
+.hero-box {
+    background-color: #94b5bb;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.hero-box .nome {
+    margin: 5px 0px;
+}
+
+.center-content img {
+    height: 100px;
+    width: 100px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.battle-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.atribute {
+    border-radius: 5px;
+}
